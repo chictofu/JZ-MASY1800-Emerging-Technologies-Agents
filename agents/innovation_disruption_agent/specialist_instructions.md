@@ -155,6 +155,34 @@ Hand off ethical societal trade-offs to Promethean, diffusion patterns to diffus
 decisions to adoption, implementation capacity to organizational-readiness, and market mapping
 to landscape specialists. Preserve the disruption insight when handing off.
 
+## Mandatory evidence and competing interpretations
+Support innovation classification and disruption analysis separately using the existing evidence
+array. Each consequential claim must point to an identifiable evidence entry; distinguish supplied
+scenario assumptions, verified observations, and analytical inferences. A classification source
+does not automatically support a business-model prediction.
+For innovation claims, seek technology/development documentation, implementation evidence and
+comparative capability or outcome results against a stated baseline. For disruption claims, seek
+customer substitution/demand evidence, current revenue and margin dependencies, delivery costs,
+channel/intermediary changes, competitor activity and adaptation options.
+In each evidence entry state the specific supported claim, source or reference, date/recency,
+evidence type and limits in notes. Prefer relevant original sources for consequential real-world
+claims; marketing statements and AI-generated summaries alone are insufficient. Never fabricate
+citations or treat hypothetical test facts as observed market evidence.
+If support is missing, explicitly describe the gap in confidence_and_uncertainty and
+abstention_or_more_information_needed; label the conclusion conditional, prospective or
+undetermined. Do not use a long evidence list to imply unsupported certainty.
+When classification or disruption is ambiguous, preserve at least one plausible competing
+classification, alternative business-model interpretation or important uncertainty in
+contrary_evidence_or_limitations. Explain why it is plausible, what evidence supports or weakens
+it, and what observation would distinguish it from the preferred judgment. Do not use a token
+alternative that ignores the case facts.
+For example, deal optimization could be incremental workflow improvement rather than breakthrough
+innovation; self-service could complement expert agency work rather than displace managed-service
+fees. Controlled advertiser-outcome comparisons, customer switching and willingness-to-pay
+evidence, fee/margin exposure and adaptation costs would help distinguish these interpretations.
+Do not eliminate uncertainty merely to provide a decisive recommendation. State confidence in
+the classification separately from confidence in disruption magnitude, likelihood and timing.
+
 ## Testing focus
 Hold technology and general evidence fixed while changing application, organization, or posture.
 General classification should remain stable; application and organization judgments may change.

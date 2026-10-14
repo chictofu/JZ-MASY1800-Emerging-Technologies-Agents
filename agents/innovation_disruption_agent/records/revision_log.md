@@ -17,3 +17,6 @@ Require an explicit assessment of product/service, process, capability, customer
 
 ## Two-sided creative destruction and strategic timing risk
 Require created/enabled and displaced/reduced/commoditized/obsolete value, causal mechanisms, value capture and cannibalization, a no-disruption alternative, and comparison of premature adoption with non-response. Require explicit larger-risk judgment with both/undetermined options and evidence-based revision triggers. Active work/ packets regenerated. Historical responses are not reruns of these strengthened instructions. Frozen core verification passed.
+
+## Separate evidence support and preserved competing interpretations
+Require claim-specific support for innovation and disruption, source dates and limitations, explicit distinction between assumptions/observations/inferences, and meaningful alternatives with distinguishing evidence in ambiguous cases. Confidence must distinguish classification from disruption magnitude/likelihood/timing. Active work/ packets regenerated; historical evaluations remain unchanged and are not validation of this revision. Frozen core verification passed.
