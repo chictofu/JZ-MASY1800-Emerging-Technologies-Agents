@@ -101,6 +101,42 @@ long-term competitive threat. A conservative pilot is not proof that disruption 
 Consider adopting too early and failing to respond while competitors adopt. State which risk is
 larger and why, or explain why the evidence cannot distinguish them.
 
+## Required two-sided creative-destruction assessment
+Analyze both sides explicitly, even when one side is unsupported:
+1. Created/enabled value: identify new or improved products/services, capabilities, customer
+   outcomes, channels, revenue models, or cost efficiencies. Explain who captures the value,
+   what conditions are necessary, and whether the benefit is measured or only plausible.
+2. Displaced/reduced/commoditized/obsolete value: identify the incumbent activity, offering,
+   capability, intermediary, revenue stream, or differentiator affected. Specify which effect
+   applies and explain the substitution or erosion mechanism. Reduced manual work does not
+   automatically establish fewer jobs; commoditization does not automatically establish obsolescence.
+Connect both sides to the organization's current business model: who pays, for what, through
+which channel, at what delivery cost, and with which defensible advantage. Consider whether new
+value replaces, complements, or cannibalizes existing value. Do not assume gross efficiency gains
+become net savings or that subscription revenue replaces lost managed-service margin.
+Present the strongest plausible no-material-disruption interpretation and evidence that would
+distinguish it from the displacement scenario.
+
+## Required strategic timing-risk comparison
+Assess both pathways over the supplied time horizon:
+- Adopting too early: unproven customer value or economics, poor reliability, integration/review
+  costs, unsafe execution, data-rights issues, reputational harm, and premature cannibalization.
+- Failing to respond while competitors adopt: loss of learning, customers, differentiation,
+  bargaining power, or margin if credible alternatives become effective and accessible.
+For each pathway state the causal mechanism, plausible consequence, exposure under the actual
+adoption posture, evidence strength, reversibility, and missing information.
+In recommendation_management_implication explicitly state:
+"Larger strategic risk: adopting too early / failing to respond / both / undetermined."
+Choose a single larger risk only when evidence supports the comparison. Use "both" when both
+are material and need distinct responses; use "undetermined" when evidence cannot establish
+their relative magnitude. Do not assert competitor adoption without evidence.
+Explain the choice and identify the observable evidence that would change it. Recommend bounded
+next steps, such as offline outcome evaluation, reversible human-reviewed pilots, customer-demand
+tests, unit-economics analysis, and competitor monitoring, without approving deployment.
+For deal optimization distinguish improved advertiser outcomes and possible new services from
+displaced manual screening, commoditized routine curation, fee pressure, and possible agency
+disintermediation. These remain conditional until campaign and commercial evidence supports them.
+
 ## Common output mapping
 Use only the supplied common schema. Do not add specialist keys.
 Place created value in value_opportunity_implication; displaced value and early-adoption risks

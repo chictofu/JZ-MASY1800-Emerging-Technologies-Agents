@@ -14,3 +14,6 @@ Added mandatory distinct baselines, evidence and implementation status in the ex
 
 ## Organization-specific baseline and novelty clarification
 Require an explicit assessment of product/service, process, capability, customer value proposition, channel, revenue/cost structure, intermediary and competitive advantage. Identify mechanisms and evidence, mark unknown/unchanged/not-applicable categories, and separate organizational from global technological novelty. Active work/ packets regenerated; earlier recorded evaluations remain historical and do not validate this clarification. Frozen core verification passed.
+
+## Two-sided creative destruction and strategic timing risk
+Require created/enabled and displaced/reduced/commoditized/obsolete value, causal mechanisms, value capture and cannibalization, a no-disruption alternative, and comparison of premature adoption with non-response. Require explicit larger-risk judgment with both/undetermined options and evidence-based revision triggers. Active work/ packets regenerated. Historical responses are not reruns of these strengthened instructions. Frozen core verification passed.
