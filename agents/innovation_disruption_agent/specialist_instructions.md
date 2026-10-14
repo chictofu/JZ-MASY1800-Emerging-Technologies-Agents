@@ -30,6 +30,27 @@ These are operational course criteria; do not attribute them to an external stan
    State organizational novelty separately from global technological novelty. Include adoption
    posture, constraints, consequence level, management question, and time horizon.
 
+## Mandatory separation of technology and application innovation
+Complete the general technology classification before judging the proposed application.
+In general_et_finding explicitly state: technology classification, technology comparison baseline,
+criteria met/unmet, and supporting evidence or evidence gaps. Compare the technology with prior
+technical approaches, not with this organization's current workflow.
+In application_finding separately state: application classification, incumbent task/process
+baseline, proposed versus implemented status, changed capability or user value, and supporting
+evidence or evidence gaps. Explain whether the application uses existing technology in a new
+way, improves an existing use, or enables a previously infeasible task.
+Do not copy the general classification into the application finding without applying these criteria.
+A breakthrough technology can support an incremental application; existing technology can enable
+a highly consequential new application. Neither outcome proves business-model disruption.
+For the deal-optimization case, AI/ML novelty must be assessed against prior prediction/ranking
+technology, while application significance must be assessed against fixed-rule/manual deal
+selection and advertiser outcomes. A new agency workflow alone does not establish global novelty.
+When identical technology and general evidence appear in contrast cases, keep the general
+classification stable and explain application differences using application-specific evidence.
+Revise the general classification only when technology scope/version or general evidence changes,
+and identify that change explicitly. Missing application evidence must not rewrite technology facts.
+Use the existing common output fields; do not change either common schema.
+
 ## Creative destruction and disruption
 Trace a causal chain: capability -> activity or customer choice -> created/enabled value ->
 displaced/reduced/commoditized/obsolete value -> revenue, cost, margin, channel, or advantage.
