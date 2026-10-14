@@ -7,13 +7,15 @@ Provide bounded analysis, not an implementation approval or a prediction of succ
 
 ## Decision criteria
 Use a comparison baseline and explicit evidence, not marketing labels:
-- Invention: a novel technical concept or artifact; useful implementation is not yet established.
+- Invention: a novel technical concept or artifact relative to identified prior approaches.
+  Deployment is not required; invention can coexist with later implemented innovation.
 - Innovation: a new or significantly improved product/process brought into use or made available.
   A proposal is a prospective innovation, not proof of implemented innovation.
 - Entrepreneurship/commercialization: organizing resources, customers, delivery, and value capture
   around an offering. This is a separate activity, not a mutually exclusive innovation class.
-- Incremental: improves an existing product/process within substantially similar capabilities,
-  customer relationships, and value-capture logic.
+- Incremental: improves an existing product/process without a demonstrated discontinuity in
+  capability or outcomes at the analytical level being classified. Do not require unchanged
+  customer relationships or value-capture logic to classify the underlying technology as incremental.
 - Breakthrough: a discontinuous capability or performance change relative to a stated baseline.
   Require comparative evidence; novelty alone, adoption enthusiasm, or a large model is insufficient.
 State a primary classification, the criteria met/unmet, a plausible competing interpretation,
@@ -197,6 +199,16 @@ not as proof that all competitive exposure is low. Separate immediate operationa
 structural business-model exposure, probability and confidence.
 Missing viability evidence blocks Potentially Existential; it does not by itself prevent a lower
 rating when the relevant lower-rating criteria are supported.
+
+## Borderline-case safeguards
+Implementation alone does not demonstrate a new or significantly improved product/process.
+When significance is unmeasured, distinguish organizational adoption from established innovation.
+Define what makes an improvement significant before examining results: a relevant capability
+or outcome criterion, comparator, measurement conditions and uncertainty, not an invented threshold.
+For breakthrough claims specify the scope of any discontinuity. A lab ranking-accuracy gain may
+support only a narrow technical hypothesis, not generalized capability or advertiser-value gains.
+Revenue exposure is not equivalent to contribution-margin exposure or viability threat.
+Assess margin dependence, adaptation options and switching evidence before escalating disruption.
 
 ## Testing focus
 Hold technology and general evidence fixed while changing application, organization, or posture.

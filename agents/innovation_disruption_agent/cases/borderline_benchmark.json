@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Hypothetical ranking model B1 with a stipulated large held-out ranking-accuracy improvement over a named comparator on one lab dataset. No independent replication or advertiser-outcome evidence.",
+  "intended_application": "Rank deals for human review within existing managed campaigns.",
+  "organization": "Fictional Northstar Media Agency; charges clients for managed campaigns and expert trading, retaining client ownership and human oversight.",
+  "industry_sector": "Programmatic advertising \u2014 user-confirmed application domain",
+  "business_need": "Improve deal selection and reduce manual screening while maintaining advertiser outcomes and accountability.",
+  "users_stakeholders": "Advertisers, agency traders, publishers, supply partners, compliance and management.",
+  "adoption_posture": "Conservative: offline evaluation then limited human-approved pilot; no autonomous spend or fee-model change.",
+  "capabilities_constraints": "Historical campaign data is stipulated; no measured incremental lift, bias assessment, data-rights review, cost-to-serve analysis, or integration evidence.",
+  "risk_consequence_context": "Advertising spend, invalid traffic, brand suitability, privacy/data rights, transparency, and conflicts of interest. Improvement in a proxy metric does not establish advertiser value.",
+  "management_question": "Is this application incremental or breakthrough, what value could it create/displace, and how consequential is business-model disruption?",
+  "time_horizon": "12-month hypothetical planning horizon.",
+  "additional_context": "SYNTHETIC BORDERLINE CASE. Technical proxy improvement is supplied but does not establish campaign value, generalization, net savings or service substitution. Same fee model and human oversight. Assess possible narrow technical breakthrough separately from application benefit and business-model impact."
+}

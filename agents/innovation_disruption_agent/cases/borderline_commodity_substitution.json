@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Fixed hypothetical AI/ML system D1 that scores programmatic advertising deals using historical campaign data. Scenario stipulates that comparable prediction/ranking tools are already implemented; no new algorithm or discontinuous benchmark gain is evidenced. Actual vendor/model unspecified; AI/ML is the proposed technology for the user-confirmed advertising scenario.",
+  "intended_application": "Proposed low-cost self-service deal recommendations using existing ranking capability; human client decides all spend. No autonomous execution claimed.",
+  "organization": "Fictional Northstar Media Agency; charges clients for managed campaigns and expert trading, retaining client ownership and human oversight.",
+  "industry_sector": "Programmatic advertising \u2014 user-confirmed application domain",
+  "business_need": "Improve deal selection and reduce manual screening while maintaining advertiser outcomes and accountability.",
+  "users_stakeholders": "Advertisers, agency traders, publishers, supply partners, compliance and management.",
+  "adoption_posture": "Moderate: demand test and reversible pilot; no live commercial launch yet.",
+  "capabilities_constraints": "Historical campaign data is stipulated; no measured incremental lift, bias assessment, data-rights review, cost-to-serve analysis, or integration evidence.",
+  "risk_consequence_context": "Advertising spend, invalid traffic, brand suitability, privacy/data rights, transparency, and conflicts of interest. Improvement in a proxy metric does not establish advertiser value.",
+  "management_question": "Is this application incremental or breakthrough, what value could it create/displace, and how consequential is business-model disruption?",
+  "time_horizon": "12-month hypothetical planning horizon.",
+  "additional_context": "SYNTHETIC BORDERLINE INCUMBENT CASE. Routine curation represents a stipulated 60% of fee revenue but only 15% of contribution margin; complex advisory work supplies most contribution margin. Values are fictional test assumptions, not actual company metrics. No observed customer switching or willingness to pay. Self-service might cannibalize routine fees or complement advisory upselling. Do not infer existential threat from revenue exposure alone."
+}

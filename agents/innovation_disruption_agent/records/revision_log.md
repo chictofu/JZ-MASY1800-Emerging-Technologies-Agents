@@ -23,3 +23,6 @@ Require claim-specific support for innovation and disruption, source dates and l
 
 ## Current test cycle: version 0.3-student
 Four pre-revision Codex evaluations exposed unsupported headline High ratings and scoring-to-execution capability creep. Added capability boundaries and evidence-calibrated rating rules, then saved four targeted final reevaluations. Full pre/post evidence and handoffs are in current_test_cycle/. Frozen core and both schemas remain unchanged.
+
+## Borderline-case review
+Four synthetic boundary cases exposed conflation of technical incrementality with business-model stability, invention with pre-deployment status, organizational adoption with significant innovation, proxy gains with advertiser value, and revenue exposure with viability. Revised the corresponding criteria; review and counter-interpretations saved in borderline_case_review.md. Separate ChatGPT runs remain outstanding.
