@@ -112,7 +112,7 @@ equivalence between innovation intensity and business-model disruption.
 
 # CASE CONTEXT
 {
-  "emerging_technology": "Fixed hypothetical AI/ML system D1 that scores programmatic advertising deals using historical campaign data. Scenario stipulates that comparable prediction/ranking tools are already implemented; no new algorithm or discontinuous benchmark gain is evidenced. Actual vendor/model unspecified.",
+  "emerging_technology": "Fixed hypothetical AI/ML system D1 that scores programmatic advertising deals using historical campaign data. Scenario stipulates that comparable prediction/ranking tools are already implemented; no new algorithm or discontinuous benchmark gain is evidenced. Actual vendor/model unspecified; AI/ML is the proposed technology for the user-confirmed advertising scenario.",
   "intended_application": "Proposed programmatic deal optimization; objective, decision scope, and incumbent alternative unspecified.",
   "organization": "Fictional unnamed advertising firm; offerings, revenue dependencies, margins and adaptation capability unknown.",
   "industry_sector": "Programmatic advertising \u2014 assumed interpretation of user's application",
@@ -123,7 +123,7 @@ equivalence between innovation intensity and business-model disruption.
   "risk_consequence_context": "Advertising spend, invalid traffic, brand suitability, privacy/data rights, transparency, and conflicts of interest. Improvement in a proxy metric does not establish advertiser value.",
   "management_question": "Is this application incremental or breakthrough, what value could it create/displace, and how consequential is business-model disruption?",
   "time_horizon": "12-month hypothetical planning horizon.",
-  "additional_context": "SYNTHETIC AMBIGUOUS CASE. Same fixed D1 general technology assumptions. Management enthusiasm is not evidence of breakthrough or existential disruption. Advertising and AI/ML remain provisional assumptions."
+  "additional_context": "SYNTHETIC AMBIGUOUS CASE. Same fixed D1 general technology assumptions. Management enthusiasm is not evidence of breakthrough or existential disruption. Advertising is user-confirmed; AI/ML D1 is a proposed hypothetical technology."
 }
 
 # REQUIRED OUTPUT SCHEMA

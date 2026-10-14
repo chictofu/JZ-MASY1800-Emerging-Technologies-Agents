@@ -1,7 +1,7 @@
 # Assignment 3 — Test evidence
 
 ## Scope and provenance
-User selected a programmatic deal optimization application. Advertising meaning, AI/ML system D1, hypothetical agency, and posture are provisional assumptions pending confirmation. These cases do not establish actual innovation or disruption at a real organization. Outputs are four Codex evaluations in this conversation, not independent ChatGPT sessions or deployment tests. No API call was made.
+User selected a programmatic deal optimization application. The user confirmed advertising deals, a hypothetical agency and a cautious primary pilot. AI/ML system D1 is the proposed hypothetical technology, not a verified real product. These cases do not establish actual innovation or disruption at a real organization. Outputs are four Codex evaluations in this conversation, not independent ChatGPT sessions or deployment tests. No API call was made.
 
 ## Results
 | Case | General ET | Application | Organization/business model | Assessment |
@@ -33,4 +33,4 @@ Original v0.1 prompt is an exploratory generative-AI scenario drafted before the
 - Actual optimization application, campaign experiment, real-world factual verification: unrun.
 
 ## Next evidence to collect
-Confirm advertising interpretation, technology, organization and posture; add credible original technology evidence and company/campaign facts to additional_context without changing the common input contract. Submit the four packets separately to ChatGPT, save responses with distinct names, validate them and compare against this record. Preserve unsuccessful outputs; do not silently replace them.
+Advertising, hypothetical agency and cautious primary posture are confirmed; select a real technology only if desired and add credible original technology evidence and company/campaign facts to additional_context without changing the common input contract. Submit the four packets separately to ChatGPT, save responses with distinct names, validate them and compare against this record. Preserve unsuccessful outputs; do not silently replace them.

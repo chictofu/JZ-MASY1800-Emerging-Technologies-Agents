@@ -2,7 +2,8 @@
   "case": "contrast_2",
   "runtime": "Codex evaluation in this conversation; manually saved structured output",
   "agent_version": "0.2-student",
-  "prompt_sha256": "b60b6015c8f38a69eeb32298ff9373a1d2c50ba5f732e68e8c84301ed05246ec",
-  "response_sha256": "d991d3ca4db8fe8da4f0118fd5971f57f0713ef50d214b1f431a38eb0b4ff167",
-  "separate_chatgpt_run": false
+  "prompt_sha256": "fd94719d5b8c0a4b32e2a1932a59486d7ede44ebb35500cd75ceb96ad9254b5d",
+  "response_sha256": "a5c4678d2ddcd800bea0945f33794c4052152294e12d91d3fb7cb8fe447990df",
+  "separate_chatgpt_run": false,
+  "clarification_update": "Scenario labels updated after user confirmation; analytical assumptions and conclusions unchanged."
 }

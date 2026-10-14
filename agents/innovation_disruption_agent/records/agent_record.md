@@ -4,7 +4,7 @@
 - Branch: assignment-3-innovation-disruption.
 - Base commit: 0f70ed8980dab4b0f6c1f0f25dcdba63f0072a79. Final local commit is recorded in the delivery archive VERSION_RECORD.json and can be obtained with git rev-parse HEAD.
 - Agent / assignment: Innovation and Disruption Agent, Assignment 3, version 0.2-student.
-- User-selected application: programmatic deal optimization. Advertising, AI/ML D1 and the hypothetical agency are provisional test assumptions.
+- User-selected application: programmatic deal optimization. Advertising deals, the hypothetical agency and cautious primary pilot are user-confirmed. AI/ML D1 remains a hypothetical technology assumption.
 - General ET finding: stipulated implemented prediction/ranking innovation; provisional incremental classification, no demonstrated new invention or technical breakthrough.
 - Application finding: internal recommendations versus proposed self-service automation/commercialization; application breakthrough not established.
 - Organization-specific finding: Low conditional internal-pilot impact versus High conditional core-service substitution exposure; aggressive versus conservative posture changes immediate exposure/action. Existential impact not established.
