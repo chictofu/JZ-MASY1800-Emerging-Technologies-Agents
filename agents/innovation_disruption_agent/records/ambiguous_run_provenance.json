@@ -5,5 +5,7 @@
   "prompt_sha256": "754fe1c292fbeeff37d5e14eebae5bc92c9fd0693f1fa883f2c41daa9f307362",
   "response_sha256": "5b39e22b51177a8c5d146a9c30322849c40589faaa0f097a1cf1edeb45fd9f17",
   "separate_chatgpt_run": false,
-  "clarification_update": "Scenario labels updated after user confirmation; analytical assumptions and conclusions unchanged."
+  "clarification_update": "Scenario labels updated after user confirmation; analytical assumptions and conclusions unchanged.",
+  "response_path": "agents/innovation_disruption_agent/records/earlier_evaluations/ambiguous_response.json",
+  "prompt_path": "agents/innovation_disruption_agent/records/ambiguous_prompt.txt"
 }

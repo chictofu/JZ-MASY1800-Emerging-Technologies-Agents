@@ -20,3 +20,6 @@ Require created/enabled and displaced/reduced/commoditized/obsolete value, causa
 
 ## Separate evidence support and preserved competing interpretations
 Require claim-specific support for innovation and disruption, source dates and limitations, explicit distinction between assumptions/observations/inferences, and meaningful alternatives with distinguishing evidence in ambiguous cases. Confidence must distinguish classification from disruption magnitude/likelihood/timing. Active work/ packets regenerated; historical evaluations remain unchanged and are not validation of this revision. Frozen core verification passed.
+
+## Current test cycle: version 0.3-student
+Four pre-revision Codex evaluations exposed unsupported headline High ratings and scoring-to-execution capability creep. Added capability boundaries and evidence-calibrated rating rules, then saved four targeted final reevaluations. Full pre/post evidence and handoffs are in current_test_cycle/. Frozen core and both schemas remain unchanged.

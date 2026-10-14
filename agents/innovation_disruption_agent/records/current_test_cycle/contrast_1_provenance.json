@@ -1,0 +1,9 @@
+{
+  "runtime": "Same Codex assistant in this conversation; not independent model sessions",
+  "pre_revision_prompt_sha256": "2f40867572ca8395472436c7e8d6e0158e33e7c75ffa7e3827fdbd99545ec874",
+  "post_revision_prompt_sha256": "86f9380b051a7f6fcad0d4889c592a4cea005c6fc7b0afc471f34bc4562f7a19",
+  "pre_revision_response_sha256": "4334592102fb61b81d2a33d71ab89f975ec0e65645debb84381b61f310ca921e",
+  "post_revision_response_sha256": "e04d7f6ad9538b5f9cdee3bbcefa83bee31ee8a9d58a30607f15846c9126d9c4",
+  "revision_method": "Self-critique and targeted reevaluation; not an independent benchmark",
+  "separate_chatgpt_run": false
+}

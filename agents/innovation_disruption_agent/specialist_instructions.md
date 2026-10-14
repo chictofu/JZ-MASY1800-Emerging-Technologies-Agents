@@ -183,6 +183,21 @@ evidence, fee/margin exposure and adaptation costs would help distinguish these 
 Do not eliminate uncertainty merely to provide a decisive recommendation. State confidence in
 the classification separately from confidence in disruption magnitude, likelihood and timing.
 
+## Post-test safeguards: capability scope and supported disruption ratings
+Hold the stated technology capability fixed, not just its name. D1 scores/ranks deals; autonomous
+budget execution requires a separate controller, integration, permissions and safeguards.
+Treat these as proposed application components with unverified feasibility, not established D1
+capabilities. State this dependency explicitly when discussing self-service automation.
+Give one supported Business-Model Disruption Judgment for the stated horizon and scenario.
+When substitution or affected revenue/margin scale is unestablished, use Undetermined for the
+overall rating. Describe a potentially High impact only as a separately labeled conditional
+scenario requiring supporting evidence; do not headline it as the established rating.
+Use Low for a bounded internal pilot only conditionally on unchanged core service/value capture,
+not as proof that all competitive exposure is low. Separate immediate operational exposure,
+structural business-model exposure, probability and confidence.
+Missing viability evidence blocks Potentially Existential; it does not by itself prevent a lower
+rating when the relevant lower-rating criteria are supported.
+
 ## Testing focus
 Hold technology and general evidence fixed while changing application, organization, or posture.
 General classification should remain stable; application and organization judgments may change.

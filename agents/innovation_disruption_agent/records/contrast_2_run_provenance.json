@@ -5,5 +5,7 @@
   "prompt_sha256": "fd94719d5b8c0a4b32e2a1932a59486d7ede44ebb35500cd75ceb96ad9254b5d",
   "response_sha256": "a5c4678d2ddcd800bea0945f33794c4052152294e12d91d3fb7cb8fe447990df",
   "separate_chatgpt_run": false,
-  "clarification_update": "Scenario labels updated after user confirmation; analytical assumptions and conclusions unchanged."
+  "clarification_update": "Scenario labels updated after user confirmation; analytical assumptions and conclusions unchanged.",
+  "response_path": "agents/innovation_disruption_agent/records/earlier_evaluations/contrast_2_response.json",
+  "prompt_path": "agents/innovation_disruption_agent/records/contrast_2_prompt.txt"
 }

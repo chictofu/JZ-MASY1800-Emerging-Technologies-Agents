@@ -1,3 +1,7 @@
+# Current evaluation update
+
+The latest evidence is in [current_test_cycle/test_report.md](current_test_cycle/test_report.md), version 0.3-student. Self-service disruption is now Undetermined with a separately labeled potentially High conditional scenario. Prior results below are historical and superseded where they differ. Current responses/ contains final outputs; earlier responses are preserved in earlier_evaluations/.
+
 # Assignment 3 — Test evidence
 
 ## Scope and provenance

@@ -1,0 +1,12 @@
+primary before: full output schema PASS; VALIDATION PASSED
+primary after: full output schema PASS; VALIDATION PASSED
+contrast_1 before: full output schema PASS; VALIDATION PASSED
+contrast_1 after: full output schema PASS; VALIDATION PASSED
+contrast_2 before: full output schema PASS; VALIDATION PASSED
+contrast_2 after: full output schema PASS; VALIDATION PASSED
+ambiguous before: full output schema PASS; VALIDATION PASSED
+ambiguous after: full output schema PASS; VALIDATION PASSED
+General finding stable across all four evaluations: PASS
+Application findings differ for internal versus self-service use: PASS
+Post-revision self-service and ambiguous ratings abstain appropriately: PASS
+FROZEN CORE INTACT
