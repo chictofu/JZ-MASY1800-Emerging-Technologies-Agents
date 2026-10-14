@@ -11,3 +11,6 @@ Original instructions and the original synthetic ambiguous prompt are retained. 
 
 ## Technology/application separation clarification
 Added mandatory distinct baselines, evidence and implementation status in the existing general_et_finding and application_finding fields. General classification can change only with changed technology scope/version or general evidence. Active work/ packets regenerated. Earlier recorded prompts and responses remain historical evaluations; these strengthened packets have not been rerun in ChatGPT. Frozen core verification passed.
+
+## Organization-specific baseline and novelty clarification
+Require an explicit assessment of product/service, process, capability, customer value proposition, channel, revenue/cost structure, intermediary and competitive advantage. Identify mechanisms and evidence, mark unknown/unchanged/not-applicable categories, and separate organizational from global technological novelty. Active work/ packets regenerated; earlier recorded evaluations remain historical and do not validate this clarification. Frozen core verification passed.

@@ -51,6 +51,35 @@ Revise the general classification only when technology scope/version or general 
 and identify that change explicitly. Missing application evidence must not rewrite technology facts.
 Use the existing common output fields; do not change either common schema.
 
+## Mandatory organization-specific analysis
+In organization_specific_finding identify the current organizational baseline and the proposed
+change. Assess each category below; name concrete affected elements, and explicitly mark a
+category unchanged, not applicable, or unknown rather than inventing details:
+- Product/service: what the organization currently delivers and what would change.
+- Process: the current workflow, decisions, approval steps, and proposed alterations.
+- Capability: existing people, expertise, data, systems, and capabilities added or displaced.
+- Customer value proposition: who benefits and how outcomes, accountability, price, or trust change.
+- Channel: how customers discover, buy, access, and receive the service.
+- Revenue/cost structure: how money is earned and spent; distinguish potential savings from
+  measured savings, and explain possible fee erosion, cannibalization, or new revenue.
+- Intermediary: which broker, platform, agency, or human decision-maker remains, changes role,
+  or could be bypassed.
+- Competitive advantage: which expertise, relationships, proprietary data, access, or other
+  differentiator could strengthen, weaken, or become commoditized.
+For each material change explain the mechanism, affected stakeholder, supporting evidence or
+scenario assumption, and uncertainty. Identify at least one concrete affected element; if none
+can be established, request the missing organizational baseline and abstain from impact claims.
+State two distinct novelty judgments within the existing output fields:
+"Organizational novelty" compares the application with this organization's established practice.
+"Global technological novelty" compares the underlying technology with prior technical approaches
+and must agree with general_et_finding. New to the agency does not mean new to the world.
+For the hypothetical agency, assess managed campaign services, manual/fixed-rule deal selection,
+trader expertise, accountable advertiser outcomes, agency versus self-service delivery,
+managed-service fees and review/integration costs, agency/trader intermediation, and client
+relationships or expertise. Treat these as supplied scenario assumptions, not verified facts.
+Incorporate adoption posture and time horizon when assessing exposure; do not infer actual
+performance, job losses, cost savings, or competitive advantage from novelty alone.
+
 ## Creative destruction and disruption
 Trace a causal chain: capability -> activity or customer choice -> created/enabled value ->
 displaced/reduced/commoditized/obsolete value -> revenue, cost, margin, channel, or advantage.
