@@ -1,0 +1,9 @@
+primary: input schema PASS; output schema PASS; VALIDATION PASSED
+primary: frozen instructions, specialist instructions and case present in packet
+contrast_1: input schema PASS; output schema PASS; VALIDATION PASSED
+contrast_1: frozen instructions, specialist instructions and case present in packet
+contrast_2: input schema PASS; output schema PASS; VALIDATION PASSED
+contrast_2: frozen instructions, specialist instructions and case present in packet
+ambiguous: input schema PASS; output schema PASS; VALIDATION PASSED
+ambiguous: frozen instructions, specialist instructions and case present in packet
+FROZEN CORE INTACT

@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Fixed hypothetical AI/ML system D1 that scores programmatic advertising deals using historical campaign data. Scenario stipulates that comparable prediction/ranking tools are already implemented; no new algorithm or discontinuous benchmark gain is evidenced. Actual vendor/model unspecified.",
+  "intended_application": "Proposed advertiser self-service subscription that recommends and automatically reallocates approved budget among programmatic deals, potentially substituting for routine agency trading.",
+  "organization": "Fictional Northstar Media Agency; charges clients for managed campaigns and expert trading, retaining client ownership and human oversight.",
+  "industry_sector": "Programmatic advertising \u2014 assumed interpretation of user's application",
+  "business_need": "Create subscription revenue and protect routine trading work from customer self-service alternatives.",
+  "users_stakeholders": "Advertisers, agency traders, publishers, supply partners, compliance and management.",
+  "adoption_posture": "Conservative: same self-service concept evaluated in sandbox only; no launch or autonomous live spend until quality, economics, permissions, and controls are verified.",
+  "capabilities_constraints": "Historical campaign data is stipulated; no measured incremental lift, bias assessment, data-rights review, cost-to-serve analysis, or integration evidence. No measured willingness to pay, switching evidence, or safe autonomous budget controls.",
+  "risk_consequence_context": "Advertising spend, invalid traffic, brand suitability, privacy/data rights, transparency, and conflicts of interest. Improvement in a proxy metric does not establish advertiser value. Cannibalization of managed-service fees and automated spend exposure.",
+  "management_question": "Is this application incremental or breakthrough, what value could it create/displace, and how consequential is business-model disruption?",
+  "time_horizon": "12-month hypothetical planning horizon.",
+  "additional_context": "SYNTHETIC TEST, NOT A VERIFIED REAL ORGANIZATION. Advertising interpretation and AI/ML technology are provisional assumptions. All technology facts are held constant across cases. No claim that real D1 exists or outperforms existing tools. Current intermediary: agency trader curates deals; current revenue: managed-service fees. No customer switching or performance evidence supplied. Routine deal curation is stipulated to be a core service; proportion of fees/margin affected unknown. Self-service and subscription are proposals, not implementation evidence."
+}

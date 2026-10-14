@@ -1,0 +1,8 @@
+{
+  "case": "contrast_1",
+  "runtime": "Codex evaluation in this conversation; manually saved structured output",
+  "agent_version": "0.2-student",
+  "prompt_sha256": "1e3201fd7ad80b50cd7dbb89ab634d7fe324a96e1535543157c0a1df934d9f7c",
+  "response_sha256": "99f73b922750893dbcea4ccbadbc75c19a226b8f8a9e67ef1a4d8be051d58d0c",
+  "separate_chatgpt_run": false
+}
