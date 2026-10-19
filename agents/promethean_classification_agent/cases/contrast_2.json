@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Hypothetical AI/ML D1 deal-scoring/ranking system. Same fixed scope in primary, contrasts and hype test. Scenario stipulates improvements within established ranking capability, not a discontinuous new capability; no evidence of cross-domain structural transformation. Not all AI.",
+  "intended_application": "Proposed ranked private-marketplace advertising deal recommendations; human trader approves all spend. Baseline: manual review and fixed-rule filters.",
+  "organization": "Fictional small advertising agency without a reliable data pipeline or model-review expertise.",
+  "industry_sector": "Programmatic advertising; synthetic scenario",
+  "business_need": "Improve deal screening while retaining accountable advertiser service.",
+  "users_stakeholders": "Agency traders, advertisers, publishers, management and data subjects.",
+  "adoption_posture": "Conservative: offline review then reversible human-approved pilot.",
+  "capabilities_constraints": "No reliable campaign data pipeline or evaluation staff; no validated local outcome or integration evidence.",
+  "risk_consequence_context": "Advertising spend, data rights, brand suitability, inaccurate recommendations and reputation.",
+  "management_question": "What broad significance is supported, and how much should it influence this application decision?",
+  "time_horizon": "Local: 12 months; long-term societal potential: uncertain and longer horizon, not a forecast.",
+  "additional_context": "SYNTHETIC SCENARIO. No actual vendor, deployment, competitor, performance or commercialization claim. D1 only scores/ranks; no autonomous budget-execution capability. General technology evidence fixed across primary, contrasts and hype test."
+}

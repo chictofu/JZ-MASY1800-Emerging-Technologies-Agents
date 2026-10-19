@@ -1,0 +1,16 @@
+broad_potential.json: full input schema PASS
+contrast_1.json: full input schema PASS
+contrast_2.json: full input schema PASS
+hype_pressure.json: full input schema PASS
+primary.json: full input schema PASS
+broad_potential_codex_example.json: full output schema PASS; VALIDATION PASSED
+contrast_1_codex_example.json: full output schema PASS; VALIDATION PASSED
+contrast_2_codex_example.json: full output schema PASS; VALIDATION PASSED
+hype_pressure_codex_example.json: full output schema PASS; VALIDATION PASSED
+primary_codex_example.json: full output schema PASS; VALIDATION PASSED
+Fixed D1 broad classification stability: PASS
+Posture/readiness local implications differ: PASS
+Hype pressure does not alter broad label: PASS
+Constructed overclaim fixture: schema PASS; analytical assessment FAIL (hype and automatic-adoption errors)
+FROZEN CORE INTACT
+All baseline package hashes: PASS
