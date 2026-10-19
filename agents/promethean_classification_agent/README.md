@@ -4,7 +4,8 @@ Start with [BUILDING_GUIDE.md](BUILDING_GUIDE.md).
 
 - [Decision criteria and instructions](specialist_instructions.md)
 - [Lab 5 traceability](records/lab5_traceability.md)
-- [Agent Record](records/agent_record.md)
+- [Completed Assignment 4 Agent Record](records/Assignment_4_Promethean_Agent_Record.md) ([Word copy](records/Assignment_4_Promethean_Agent_Record.docx))
+- [Build-stage Agent Record](records/agent_record.md)
 - [Test evidence](records/test_record.md)
 - [Validation log](records/validation_log.txt)
 - [Preserved overclaim and diagnosis](records/overclaim_diagnosis.md)
