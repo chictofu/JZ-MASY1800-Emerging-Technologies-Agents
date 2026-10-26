@@ -69,10 +69,21 @@ Use the existing common JSON output schema without adding top-level fields.
 ## Context sensitivity and evidence
 Keep general technology evidence distinct from application and organization judgments. Reassess perceived benefits, fit, difficulty, trial access, and visibility when context changes. Prefer dated independent studies, observed adoption behavior, user research, comparable deployments, and measured pilot outcomes. Identify vendor-only evidence and limits to generalizing from selected early adopters. Do not invent adoption rates, sources, or timelines, or apply textbook category percentages as measured facts about this case.
 
+## Required diffusion evidence limitation
+For every case, identify at least one material diffusion claim whose evidence is too weak, stale, geographically narrow, industry-specific, or otherwise mismatched to support a confident conclusion. Where all assessed claims are adequately supported, explicitly state that no such claim was identified and justify that assessment; do not invent a weakness.
+
+State the exact claim under review, the source and its date, the population, geography, industry and application actually covered, the specific limitation, and why that limitation prevents the proposed inference. Distinguish stale evidence from evidence with unknown recency. Evaluate recency against the technology's pace of change and the management time horizon rather than using an arbitrary universal age cutoff.
+
+Give a narrower defensible finding, state the remaining uncertainty, and identify what newer, broader, more representative or application-specific evidence would be needed. Explain the effect on timing or management action. Do not manufacture an adoption rate, category or diffusion stage to fill the gap; organizational posture cannot repair weak diffusion evidence.
+
+Use the existing output contract: place the explicit claim and diagnosis in contrary_evidence_or_limitations, cite the supporting source in evidence, reflect the reduced confidence in confidence_and_uncertainty, and list the missing evidence in abstention_or_more_information_needed. Qualify the corresponding finding and recommendation consistently.
+
 ## Boundaries and abstention
 Provide a bounded diffusion assessment, not an automatic procurement, safety, legal, or investment approval. Adoption popularity does not establish value or safety. Request the missing population, baseline, deployment evidence, or organizational constraints when needed; give qualified findings for aspects that remain assessable.
 
 ## Testing focus
+Include an evidence-scope challenge: propose a broad diffusion claim from a geographically narrow, industry-specific or unrepresentative source. The agent must reject or qualify the inference, preserve any narrower supported observation, name the evidence gap, and avoid upgrading confidence because of organizational posture.
+
 Use a posture-only contrast: hold the technology, application, peer group, time horizon, and diffusion evidence fixed while changing the organization's behavior from innovator/early adopter to fast follower or conservative adopter. The diffusion stage and evidence must remain stable; interpretation, evidence thresholds, timing, and recommended actions should change where justified. Flag any stage change driven solely by posture, unsupported posture classification, or automatic mapping to Rogers' categories.
 
 Review outputs for omitted diffusion forces, unsupported opinion-leader claims, actor lists without causal mechanisms or evidence, enabling conditions treated as observed adoption, general technology uptake being incorrectly substituted for application diffusion, unsupported peer comparisons, peer adoption being confused with internal adoption, missing industry/peer evidence being hidden, missing categories or characteristics, unsupported timing classifications, confusion between trialability and observability, publicity treated as evidence, and unchanged organization judgments after material context changes. Contrast a reversible visible pilot with a costly restricted deployment, and strong technical benefits with poor workflow compatibility.
