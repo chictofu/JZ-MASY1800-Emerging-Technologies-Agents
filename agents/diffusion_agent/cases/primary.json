@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Retrieval-augmented generation (RAG) using a language model",
+  "intended_application": "Draft answers to internal IT knowledge questions for staff review; no autonomous actions",
+  "organization": "Synthetic Regional Services Co.; no internal production adoption of this application",
+  "industry_sector": "Midsize regional service organizations in the United States",
+  "business_need": "Reduce IT support handling time while retaining human review",
+  "users_stakeholders": "IT support staff, knowledge owners, employees, security reviewer",
+  "adoption_posture": "Observed innovator/early adopter behavior: in three prior comparable initiatives the organization funded reversible pilots before peer production results were available, dedicated staff to learning, and accepted uncertainty within approved safeguards.",
+  "capabilities_constraints": "Approved searchable documents, retrieval infrastructure, security reviewer and training budget; access-control integration and monitoring unvalidated",
+  "risk_consequence_context": "Internal information exposure and incorrect answers; mandatory human review, no automated actions, same safeguards in both cases",
+  "management_question": "When should we begin a trial or production adoption, given the evidence?",
+  "time_horizon": "Next six months from synthetic snapshot 2026-10-25",
+  "additional_context": "SYNTHETIC TEST EVIDENCE ONLY; not real-world research. Snapshot S1: 2026-10-25, United States, prior 12 months. E1: Among a defined panel of 100 midsize service organizations, 60 use retrieval-augmented generation (RAG) in production for at least one use; application mix unspecified. E2: For internal IT knowledge-answer drafting with mandatory staff review, 20 of the same 100 organizations use it routinely, 30 pilot it, and 50 have not started. E3: Among a nested group of 10 regional service organizations matched on size, IT stack, geography and use case, two use this application routinely, three pilot it, five have not started. Convenience panel: not representative; adoption timing of individual organizations and influential peer networks are not supplied. E4: A comparable controlled pilot found 15% lower median handling time with review retained, but no full lifecycle cost estimate. E5: Target organization has approved searchable documents, retrieval infrastructure, a security reviewer and training budget; access-control integration and error monitoring still need validation. An eight-week reversible shadow trial can run without automatic actions. E6: IT implementation team can support onboarding; vendor supplies connectors but has a sales incentive. No evidence identifies trusted opinion leaders or applicable external standard/certification conformance."
+}
