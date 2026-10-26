@@ -7,6 +7,16 @@ Assess how an emerging technology may spread within a defined social system, app
 Which adopter categories are relevant to this case, and how do relative advantage, compatibility, complexity, trialability, and observability enable or constrain adoption within the stated time horizon?
 
 ## Required analytical framework
+### Distinguish the scope of diffusion
+Make separate, explicit findings about:
+1. **Technology generally:** Diffusion of the underlying technology across a defined population or social system.
+2. **Proposed application:** Diffusion of the specific intended use, distinguishing experimentation and pilots from routine production use.
+3. **Industry or comparable peer group:** Where evidence permits, diffusion of that application within the organization's industry or a justified comparable peer group. Define the group and explain comparability in use case, scale, geography, regulation, resources, and relevant constraints. Distinguish peer adoption from adoption inside the organization itself.
+
+For each scope, identify the unit of adoption, population or denominator where available, geography, time horizon, evidence date, and supported adoption status or pattern. State which scope each source actually supports. Assess relevant adopter categories and the five characteristics at each scope as evidence permits. Do not transfer a general technology adoption rate, maturity claim, or adopter classification to the proposed application or peer group without supporting evidence. Do not infer internal organizational adoption from peer behavior.
+
+When application-specific or industry/peer evidence is unavailable, explicitly report that gap, qualify any analogy or inference, and identify the information needed; do not invent a diffusion stage or rate.
+
 For every case, assess the relevant adopter categories: innovators, early adopters, early majority, late majority, and laggards. Identify the population, social system, application, comparison group, and time horizon before assigning a category. Explain each relevant group's motivations, barriers, influence, and evidence needed to adopt. Explicitly explain why any category is not relevant or cannot be assessed. Categories describe relative adoption timing within that system, not fixed personality traits or judgments of merit. Do not infer a category from organizational size, enthusiasm, or a stated adoption posture alone.
 
 Assess all five diffusion characteristics separately, even when evidence is missing:
@@ -20,9 +30,9 @@ For each characteristic, state whether it enables adoption, constrains adoption,
 
 ## Required specialist findings and output mapping
 Use the existing common JSON output schema without adding top-level fields.
-- In general_et_finding, assess the five characteristics at the general technology level, qualifying variation across applications and social systems.
-- In application_finding, explicitly assess all five characteristics for the intended use and identify relevant adopter categories in a defined population.
-- In organization_specific_finding, explicitly assess all five characteristics for this organization and explain relevant adopter categories among decision makers, users, or partner groups. State unknowns instead of forcing classifications.
+- In general_et_finding, explicitly state the diffusion status or pattern of the underlying technology in its defined population and assess the five characteristics at the general technology level, qualifying variation across applications and social systems.
+- In application_finding, separately state the diffusion status or pattern of the proposed application, distinguish pilots from routine production adoption, and explicitly assess all five characteristics for the intended use and identify relevant adopter categories in a defined population.
+- In organization_specific_finding, include a separately labeled industry/peer-group diffusion assessment where evidence permits, define the comparison group and its limits, and state explicitly when such evidence is missing. Keep this separate from adoption within the organization. Then explicitly assess all five characteristics for this organization and explain relevant adopter categories among decision makers, users, or partner groups. State unknowns instead of forcing classifications.
 - In evidence, link material characteristic and category claims to sources; separate observed behavior from inference.
 - In recommendation_management_implication, explain which groups to engage, which barriers to address, and what trial or evidence would support the next adoption decision.
 - In change_monitoring_triggers, identify observable changes that would alter the diffusion assessment.
@@ -35,4 +45,4 @@ Keep general technology evidence distinct from application and organization judg
 Provide a bounded diffusion assessment, not an automatic procurement, safety, legal, or investment approval. Adoption popularity does not establish value or safety. Request the missing population, baseline, deployment evidence, or organizational constraints when needed; give qualified findings for aspects that remain assessable.
 
 ## Testing focus
-Review outputs for missing categories or characteristics, unsupported timing classifications, confusion between trialability and observability, publicity treated as evidence, and unchanged organization judgments after material context changes. Contrast a reversible visible pilot with a costly restricted deployment, and strong technical benefits with poor workflow compatibility.
+Review outputs for general technology uptake being incorrectly substituted for application diffusion, unsupported peer comparisons, peer adoption being confused with internal adoption, missing industry/peer evidence being hidden, missing categories or characteristics, unsupported timing classifications, confusion between trialability and observability, publicity treated as evidence, and unchanged organization judgments after material context changes. Contrast a reversible visible pilot with a costly restricted deployment, and strong technical benefits with poor workflow compatibility.
