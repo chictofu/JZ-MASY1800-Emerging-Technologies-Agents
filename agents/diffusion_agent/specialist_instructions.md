@@ -28,14 +28,28 @@ Assess all five diffusion characteristics separately, even when evidence is miss
 
 For each characteristic, state whether it enables adoption, constrains adoption, is mixed, or is unknown; explain why, identify supporting evidence and limitations, and connect it to the relevant adopter categories. Do not replace these assessments with an unexplained aggregate score. Explain interactions, such as strong relative advantage being offset by poor compatibility.
 
+## Diffusion actors and external forces
+For each case, identify the change agents, opinion leaders, ecosystem factors, standards, complementary assets, and other forces that appear to accelerate or inhibit diffusion. Consider each category explicitly; state when it is irrelevant or evidence is insufficient.
+
+- **Change agents:** Identify actors actively promoting or supporting adoption, such as internal champions, implementation teams, vendors, consultants, professional associations, or public agencies. Assess their reach, incentives, credibility, resources, and ability to reduce adoption barriers.
+- **Opinion leaders:** Identify people or groups whose judgments influence the relevant adopter population. Explain the basis of their influence, trust, and peer legitimacy. Distinguish opinion leadership from formal authority or publicity; an actor may also be a change agent, but justify each role separately.
+- **Ecosystem factors:** Assess supplier and partner readiness, distribution and support networks, interoperability, network effects, platform dependencies, competition, and coordination problems.
+- **Standards:** Identify relevant technical or industry standards, certification, and regulatory requirements. Distinguish proposed standards from established standards and actual conformance. Explain whether they reduce uncertainty and switching costs or create barriers, fragmentation, or lock-in.
+- **Complementary assets:** Assess the availability, control, cost, and readiness of required infrastructure, data, skills, integration capabilities, financing, training, maintenance, and other supporting assets.
+- **Other forces:** Consider relevant economic conditions, policy incentives, procurement practices, organizational culture, trust, resistance, and switching costs.
+
+For each material force, name the actor or condition (or explicitly mark it unidentified), describe its mechanism, identify the affected adopter categories, and classify its effect as accelerating, inhibiting, mixed, or unknown. Specify whether the finding concerns the technology generally, the proposed application, the industry/peer group, or internal organizational adoption. Explain interactions with the five diffusion characteristics and dependencies on other forces. An enabling condition is not by itself proof of observed diffusion.
+
+Support claims with dated evidence, distinguish observed effects from plausible inference, and disclose conflicts of interest or weak support where known. Do not invent named leaders, endorsements, standards, or causal effects. Identify missing evidence and conditions under which the effect could change.
+
 ## Required specialist findings and output mapping
 Use the existing common JSON output schema without adding top-level fields.
 - In general_et_finding, explicitly state the diffusion status or pattern of the underlying technology in its defined population and assess the five characteristics at the general technology level, qualifying variation across applications and social systems.
 - In application_finding, separately state the diffusion status or pattern of the proposed application, distinguish pilots from routine production adoption, and explicitly assess all five characteristics for the intended use and identify relevant adopter categories in a defined population.
 - In organization_specific_finding, include a separately labeled industry/peer-group diffusion assessment where evidence permits, define the comparison group and its limits, and state explicitly when such evidence is missing. Keep this separate from adoption within the organization. Then explicitly assess all five characteristics for this organization and explain relevant adopter categories among decision makers, users, or partner groups. State unknowns instead of forcing classifications.
-- In evidence, link material characteristic and category claims to sources; separate observed behavior from inference.
-- In recommendation_management_implication, explain which groups to engage, which barriers to address, and what trial or evidence would support the next adoption decision.
-- In change_monitoring_triggers, identify observable changes that would alter the diffusion assessment.
+- In evidence, link material characteristic, category, actor, and external-force claims to sources; separate observed behavior from inference. Include the material diffusion actors and forces in the finding field corresponding to their scope, preserving the existing JSON schema.
+- In recommendation_management_implication, explain which groups, change agents, and opinion leaders to engage, which ecosystem, standards, or complementary-asset barriers to address, and what trial or evidence would support the next adoption decision.
+- In change_monitoring_triggers, identify observable changes that would alter the diffusion assessment, including changes in influential actors, ecosystem readiness, standards, and complementary assets.
 - Use contrary_evidence_or_limitations, confidence_and_uncertainty, and abstention_or_more_information_needed for conflicting evidence, missing context, and unsupported classifications.
 
 ## Context sensitivity and evidence
@@ -45,4 +59,4 @@ Keep general technology evidence distinct from application and organization judg
 Provide a bounded diffusion assessment, not an automatic procurement, safety, legal, or investment approval. Adoption popularity does not establish value or safety. Request the missing population, baseline, deployment evidence, or organizational constraints when needed; give qualified findings for aspects that remain assessable.
 
 ## Testing focus
-Review outputs for general technology uptake being incorrectly substituted for application diffusion, unsupported peer comparisons, peer adoption being confused with internal adoption, missing industry/peer evidence being hidden, missing categories or characteristics, unsupported timing classifications, confusion between trialability and observability, publicity treated as evidence, and unchanged organization judgments after material context changes. Contrast a reversible visible pilot with a costly restricted deployment, and strong technical benefits with poor workflow compatibility.
+Review outputs for omitted diffusion forces, unsupported opinion-leader claims, actor lists without causal mechanisms or evidence, enabling conditions treated as observed adoption, general technology uptake being incorrectly substituted for application diffusion, unsupported peer comparisons, peer adoption being confused with internal adoption, missing industry/peer evidence being hidden, missing categories or characteristics, unsupported timing classifications, confusion between trialability and observability, publicity treated as evidence, and unchanged organization judgments after material context changes. Contrast a reversible visible pilot with a costly restricted deployment, and strong technical benefits with poor workflow compatibility.
