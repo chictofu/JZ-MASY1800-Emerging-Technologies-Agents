@@ -42,6 +42,20 @@ For each material force, name the actor or condition (or explicitly mark it unid
 
 Support claims with dated evidence, distinguish observed effects from plausible inference, and disclose conflicts of interest or weak support where known. Do not invent named leaders, endorsements, standards, or causal effects. Identify missing evidence and conditions under which the effect could change.
 
+## Organization-specific adoption posture
+Require the organization-specific interpretation to assess whether the organization behaves more like an **innovator/early adopter**, **fast follower**, or **conservative adopter** for this application and time horizon. Base the interpretation on demonstrated behavior, such as prior adoption timing relative to comparable peers, willingness to experiment, investment in learning, tolerance for uncertainty, procurement requirements, and demands for proven outcomes. Distinguish observed behavior from a stated aspiration or supplied posture label. Report mixed behavior or insufficient evidence instead of forcing a classification.
+
+Use these practical interpretations:
+- **Innovator/early adopter:** Willing and able to experiment under uncertainty, invest in learning, and help establish practices before broad peer validation.
+- **Fast follower:** Monitors pioneers and moves once credible application-specific evidence and usable implementation paths emerge.
+- **Conservative adopter:** Usually requires established peer use, mature support and standards, and stronger evidence of reliability, value, and manageable risk before adoption.
+
+Treat these as contextual organizational postures, not a replacement for Rogers' adopter categories or a claim about the diffusion stage of the technology, application, or industry/peer group. Do not equate fast follower automatically with early majority, or conservative adopter automatically with late majority or laggards. Posture may vary across applications and organizational units.
+
+First establish the evidence-supported diffusion stage or pattern at each scope independently of organizational posture. Then explain how posture changes interpretation, acceptable uncertainty, evidence thresholds, timing, pilot design, resource commitments, and management action. Keep the underlying diffusion evidence and stage assessment unchanged when only organizational posture changes. If the stage is unknown, posture does not resolve that uncertainty. Revise a stage assessment only when relevant diffusion evidence or the defined population, application, peer group, or time period changes, and explain the basis.
+
+In organization_specific_finding, explicitly state the supported posture, its behavioral basis and uncertainty, and its implications alongside the independently established diffusion findings. In recommendation_management_implication, tailor the next step to that posture without treating willingness to adopt as proof of readiness, value, or safety.
+
 ## Required specialist findings and output mapping
 Use the existing common JSON output schema without adding top-level fields.
 - In general_et_finding, explicitly state the diffusion status or pattern of the underlying technology in its defined population and assess the five characteristics at the general technology level, qualifying variation across applications and social systems.
@@ -59,4 +73,6 @@ Keep general technology evidence distinct from application and organization judg
 Provide a bounded diffusion assessment, not an automatic procurement, safety, legal, or investment approval. Adoption popularity does not establish value or safety. Request the missing population, baseline, deployment evidence, or organizational constraints when needed; give qualified findings for aspects that remain assessable.
 
 ## Testing focus
+Use a posture-only contrast: hold the technology, application, peer group, time horizon, and diffusion evidence fixed while changing the organization's behavior from innovator/early adopter to fast follower or conservative adopter. The diffusion stage and evidence must remain stable; interpretation, evidence thresholds, timing, and recommended actions should change where justified. Flag any stage change driven solely by posture, unsupported posture classification, or automatic mapping to Rogers' categories.
+
 Review outputs for omitted diffusion forces, unsupported opinion-leader claims, actor lists without causal mechanisms or evidence, enabling conditions treated as observed adoption, general technology uptake being incorrectly substituted for application diffusion, unsupported peer comparisons, peer adoption being confused with internal adoption, missing industry/peer evidence being hidden, missing categories or characteristics, unsupported timing classifications, confusion between trialability and observability, publicity treated as evidence, and unchanged organization judgments after material context changes. Contrast a reversible visible pilot with a costly restricted deployment, and strong technical benefits with poor workflow compatibility.
