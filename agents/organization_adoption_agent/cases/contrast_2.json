@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Generative AI assistant",
+  "intended_application": "Draft internal help-desk replies with mandatory human review",
+  "organization": "Synthetic Example Services",
+  "industry_sector": "Business services",
+  "business_need": "Reduce drafting time without reducing reply accuracy",
+  "users_stakeholders": "Help-desk staff, managers, IT and employees",
+  "adoption_posture": "Bounded pilot",
+  "capabilities_constraints": "Same synthetic pilot evidence as primary except operating ownership is undocumented.",
+  "risk_consequence_context": "Internal low-consequence requests only; exclude sensitive data and access changes.",
+  "management_question": "Is this organization ready for a four-week, ten-user pilot?",
+  "time_horizon": "Four weeks",
+  "additional_context": "No evidence identifies an accepted service owner or incident responsibilities. Ownership is unknown, not verified absent. Other seven dimensions have pilot-level evidence."
+}

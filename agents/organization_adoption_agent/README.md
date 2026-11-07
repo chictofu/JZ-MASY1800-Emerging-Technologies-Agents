@@ -1,0 +1,14 @@
+# Organization Adoption Agent
+
+Defines eight organizational readiness dimensions, evidence requirements, stage-specific ratings and gates. Read specialist_instructions.md and readiness_framework.json.
+
+From the repository root:
+
+```sh
+python tools/check_frozen_core.py
+python tools/build_prompt.py --agent agents/organization_adoption_agent --case agents/organization_adoption_agent/cases/primary.json
+```
+
+The builder includes all analytical rules in the prompt. Run the generated prompt in your chosen model, save JSON under responses/, and validate with tools/validate_response.py. No model or API is invoked by the scaffold.
+
+Synthetic case expectations: primary is conditionally pilot ready based on explicit assumptions, never scale ready; contrast_1 is not ready despite sponsor enthusiasm; contrast_2 requires ownership evidence and cannot declare readiness. These are test scenarios, not completed model evaluations.
