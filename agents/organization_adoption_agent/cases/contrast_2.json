@@ -10,5 +10,5 @@
   "risk_consequence_context": "Internal low-consequence requests only; exclude sensitive data and access changes.",
   "management_question": "Is this organization ready for a four-week, ten-user pilot?",
   "time_horizon": "Four weeks",
-  "additional_context": "No evidence identifies an accepted service owner or incident responsibilities. Ownership is unknown, not verified absent. Other seven dimensions have pilot-level evidence."
+  "additional_context": "No evidence identifies an accepted service owner or incident responsibilities. Ownership is unknown, not verified absent. Other seven dimensions have pilot-level evidence. For this organizational analysis, assume the technology meets the technical performance requirements. Identify current evidenced strengths and organizational failure gaps separately; do not treat unknowns as verified absence."
 }

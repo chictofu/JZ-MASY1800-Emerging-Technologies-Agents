@@ -92,6 +92,38 @@
     "action",
     "action_owner",
     "due_date",
-    "gate_status"
+    "gate_status",
+    "current_strengths",
+    "organizational_failure_gaps"
+  ],
+  "strength_fields": [
+    "current_capability",
+    "evidence_reference",
+    "evidence_date",
+    "adoption_enabling_mechanism",
+    "scope_and_limits"
+  ],
+  "failure_gap_fields": [
+    "condition",
+    "evidence_status",
+    "evidence_reference",
+    "failure_mechanism_assuming_technology_works",
+    "business_or_stakeholder_consequence",
+    "severity_and_rationale",
+    "affected_stakeholders",
+    "dependencies",
+    "mitigation",
+    "action_owner",
+    "proposed_due_date",
+    "closure_evidence",
+    "measurable_warning_trigger"
+  ],
+  "analysis_rules": [
+    "Assess strengths and failure gaps for every dimension; summarize material findings across dimensions.",
+    "Separate current demonstrated organizational strengths from plans and vendor capabilities.",
+    "Distinguish verified deficiencies from evidence unknowns; label hypothetical failure mechanisms.",
+    "Do not invent strengths or gaps; explicitly state when none are evidenced within scope.",
+    "Assume technology meets technical performance requirements when assessing organizational failure mechanisms.",
+    "Strengths cannot offset unrelated readiness blockers."
   ]
 }
