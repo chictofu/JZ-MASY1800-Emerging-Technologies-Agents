@@ -11,3 +11,5 @@ Validation: Frozen-core checksum check, intake JSON schema checks, rubric covera
 Commit: See branch commit history for the commit containing this record.
 
 Follow-up requirement: Explicit current organizational strengths and gaps that could cause adoption failure even with successful technical performance. Added per-dimension evidence, causal mechanisms, consequences, prioritized mitigations and closure criteria. Verified frozen core and all three prompt packets; no live model evaluation performed.
+
+Follow-up requirement: Separate technology/application fit and organizational readiness to prevent organizational gaps being misreported as technology immaturity. Added independent findings, evidence requirements, fit classifications, causal attribution and paired-case expectations. Frozen schema remains unchanged. Validation: frozen-core integrity, three intake schemas and prompt packet checks; no live model evaluation.

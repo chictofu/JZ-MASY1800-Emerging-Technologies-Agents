@@ -124,6 +124,37 @@
     "Distinguish verified deficiencies from evidence unknowns; label hypothetical failure mechanisms.",
     "Do not invent strengths or gaps; explicitly state when none are evidenced within scope.",
     "Assume technology meets technical performance requirements when assessing organizational failure mechanisms.",
-    "Strengths cannot offset unrelated readiness blockers."
-  ]
+    "Strengths cannot offset unrelated readiness blockers.",
+    "Low organizational readiness must not be reported as low technology maturity or poor application fit.",
+    "High maturity or supported application fit does not establish organizational readiness.",
+    "Do not merge maturity, fit and readiness into one score; explain cross-layer constraints by causal source."
+  ],
+  "separate_findings": {
+    "technology_maturity_capability": {
+      "output_field": "general_et_finding",
+      "basis": "Technology-level evidence only; unknown without supporting rubric and evidence."
+    },
+    "technology_application_fit": {
+      "output_field": "application_finding",
+      "classifications": [
+        "supported",
+        "conditional",
+        "unsupported",
+        "insufficient evidence"
+      ],
+      "basis": "Demonstrated capabilities compared with explicit application requirements; state synthetic assumptions."
+    },
+    "organizational_readiness": {
+      "output_field": "organization_specific_finding",
+      "basis": "Eight organizational dimensions and stage-specific gates; independent of maturity and fit."
+    },
+    "shared_required_fields": [
+      "finding",
+      "scope",
+      "evidence_references",
+      "confidence",
+      "unknowns"
+    ],
+    "recommendation_rule": "Restate fit and readiness separately, then explain joint action; do not proceed while material technical or organizational conditions remain unmet."
+  }
 }
