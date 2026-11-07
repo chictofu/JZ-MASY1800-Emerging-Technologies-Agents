@@ -156,5 +156,38 @@
       "unknowns"
     ],
     "recommendation_rule": "Restate fit and readiness separately, then explain joint action; do not proceed while material technical or organizational conditions remain unmet."
+  },
+  "readiness_action_plan": {
+    "output_field": "recommendation_management_implication",
+    "priority_tiers": {
+      "P0": "Mandatory safety, legal or operating gates blocking the requested stage.",
+      "P1": "Other material failure risks and prerequisite capabilities.",
+      "P2": "Improvements after earlier conditions are met."
+    },
+    "ordering": "Within tiers use consequence severity, dependency order and time criticality; explain uncertainty. All required conditions remain blocking regardless of rank.",
+    "action_fields": [
+      "rank",
+      "priority_tier",
+      "dimension_id",
+      "linked_gap_or_unknown_and_evidence",
+      "required_change_or_evidence_request",
+      "failure_prevented_and_priority_rationale",
+      "accountable_owner",
+      "owner_status_assigned_inferred_or_proposed",
+      "ownership_basis",
+      "ownership_confidence",
+      "supporting_roles",
+      "dependencies_and_sequence",
+      "proposed_timing_or_due_date",
+      "measurable_acceptance_evidence",
+      "stage_blocked"
+    ],
+    "ownership_rule": "Infer roles from supplied responsibility and authority, explain the basis, and mark inference. Use names only when supported. Ambiguity requires explicit management assignment of one accountable owner.",
+    "closing_fields": [
+      "immediate_next_action",
+      "owner_confirmation_and_closure_decision_authority",
+      "conditions_before_proceeding"
+    ],
+    "no_gap_rule": "State no material remediation evidenced; retain only justified proceeding or maintenance conditions."
   }
 }
