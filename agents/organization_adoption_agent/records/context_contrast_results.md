@@ -40,6 +40,8 @@ These deterministic checks verify artifact structure and the reported comparison
 
 - `cases/primary.json`: `66ca79e0732cab783cb8dde15270df0f28ca1328de250c147108cad291869bf8`
 - `cases/contrast_1.json`: `0187a0a94f0a9e089674d5981d845768d0538384d5cd34d328e9705b179e2fcb`
-- `responses/primary_response.json`: `cc8845b9e801a13c3e3352712639907496732ab4c38dc42d2c9c0a4a5b0bfb3b`
-- `responses/contrast_1_response.json`: `884f58a47f1578ff117312cbd4cc2f9911a666be34c4b4dd2520f8dd29b2e87a`
-- `specialist_instructions.md`: `735cd13fa22d39abc7afb2abdb88dd3b7c5ebe848f200ff2867284f0fcdae3f4`
+- `responses/primary_response.json`: `9929273261ccd02339ee4d7985a96da15de061e64337981e948528600e53f13e`
+- `responses/contrast_1_response.json`: `f27541b19fdeef449ab41a22506c47a13645722fd6277d6225215f7cd1fba26e`
+- `specialist_instructions.md`: `dab3adc2ce90c776e7d3fb12394e23cf25327472607293e87631956ff7e049cf`
+
+Revision review: funding approval authority is explicitly unknown in both profiles. Saved responses now ask for a current delegation/approval record with role, limit, scope and effective date. Primary pilot readiness relies on stipulated budget approval and does not independently certify spending authorization; authority evidence is required before new expenditure, budget changes or expansion. Contrast funding absence remains a blocker. Responses and rebuilt prompts revalidated after revision; no independent model rerun. Hashes above reflect revised artifacts.

@@ -189,5 +189,24 @@
       "conditions_before_proceeding"
     ],
     "no_gap_rule": "State no material remediation evidenced; retain only justified proceeding or maintenance conditions."
+  },
+  "required_evidence_request": {
+    "dimension_id": "resources_budget",
+    "factor": "Funding approval authority",
+    "status_in_supplied_profiles": "unknown",
+    "question": "Who has delegated authority to approve this pilot's implementation and ongoing support spending? Please provide the current delegation-of-authority or budget approval record showing the accountable role, spending limit, scope and effective date.",
+    "do_not_infer_from": [
+      "sponsor enthusiasm",
+      "executive title",
+      "IT access authority",
+      "staffing responsibility",
+      "budget existence"
+    ],
+    "required_output_locations": [
+      "organization_specific_finding",
+      "recommendation_management_implication",
+      "abstention_or_more_information_needed"
+    ],
+    "decision_effect": "Preserve explicitly stipulated approved budget as a strength; qualify pilot readiness on that stipulation. Require authority evidence before new spend, budget changes or scale. Unverified/disputed authorization leaves the relevant gate unresolved."
   }
 }
