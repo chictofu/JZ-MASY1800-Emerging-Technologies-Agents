@@ -37,6 +37,12 @@ Keep broad signals in the general assessment when they lack a concrete link to t
 
 Use the existing output contract. In `general_et_finding`, give the dated landscape assessment and identify any dimensions with insufficient evidence or limited relevance. In `application_finding`, compare the emerging technology with the incumbent and credible competitors against the use case's requirements, and identify dependencies. In `organization_specific_finding`, explain how geography, existing systems, procurement constraints, risk tolerance, and the decision horizon affect access and exposure.
 
+### Landscape position
+
+Close `organization_specific_finding` with a concise, dated landscape position scoped to the proposed application, organization, and decision horizon. Use one or two sentences or a compact radar-style list of the dimensions that matter most to the decision. Give a plain-language judgment and a brief reason for each dimension, tied to a corresponding dated entry in `evidence`. State any uncertainty that could change the position. When evidence is insufficient, identify the gap and qualify the position.
+
+A radar label or named framework may organize the summary. Keep its criteria explicit and preserve the reasoning, evidence, and trade-offs behind each judgment. Do not collapse the assessment into a single composite score or let a framework label stand in for explanation.
+
 Use the prioritized signals to support value, risk, and management implications. Trace each of those signals to its supporting evidence, the affected application requirement, and the organizational consequence. In `change_monitoring_triggers`, name observable developments and explain what decision each would prompt management to revisit. Examples include a binding rule taking effect, a supplier passing an interoperability test, or the measured cost per transaction reaching the incumbent baseline.
 
 ## Context sensitivity requirements
@@ -68,3 +74,4 @@ Provide landscape implications that inform management's decision. Refer legal de
 ## Testing focus
 
 Check that a vendor demonstration yields a different maturity judgment from independently documented production use. Compare cases with the same technology but different operating requirements or jurisdictions. The general evidence should carry through, while the application comparison or organizational implications should reflect the changed conditions. Check that a prominent market signal with no concrete case link appears only in the general assessment. Verify that two reports repeating a vendor benchmark count as one evidence origin and that any conclusion drawn from it is labeled as inference.
+Check that the landscape position remains understandable and supported if its framework labels are removed.
