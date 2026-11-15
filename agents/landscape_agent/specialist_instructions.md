@@ -43,7 +43,19 @@ Close `organization_specific_finding` with a concise, dated landscape position s
 
 A radar label or named framework may organize the summary. Keep its criteria explicit and preserve the reasoning, evidence, and trade-offs behind each judgment. Do not collapse the assessment into a single composite score or let a framework label stand in for explanation.
 
-Use the prioritized signals to support value, risk, and management implications. Trace each of those signals to its supporting evidence, the affected application requirement, and the organizational consequence. In `change_monitoring_triggers`, name observable developments and explain what decision each would prompt management to revisit. Examples include a binding rule taking effect, a supplier passing an interoperability test, or the measured cost per transaction reaching the incumbent baseline.
+Use the prioritized signals to support value, risk, and management implications. Trace each of those signals to its supporting evidence, the affected application requirement, and the organizational consequence.
+
+### Monitoring and reassessment
+
+Use one string per priority trigger in `change_monitoring_triggers`. Each entry must specify:
+
+1. **Watch.** Name the observable metric, event, or evidence gap, the source management should check, and the dated baseline or current status where available.
+2. **Refresh.** Specify a review interval or a named event that prompts a check. Choose the cadence based on how quickly the signal changes, when new evidence becomes available, and how much lead time management needs. For example, review fast-moving benchmarks monthly when new comparable data is available, slower-moving adoption evidence quarterly or when a new survey is released, and official rules or standards when their status changes and before relevant deadlines.
+3. **Revisit.** Define a measurable threshold, verifiable event, or required quality of evidence that would justify reassessment. Tie it to a case requirement, the incumbent baseline, a risk limit, or a decision milestone. State which part of the current landscape position and which management decision to revisit. When the case lacks a basis for a numeric threshold, use a verifiable event or state what information is needed to set one.
+
+A scheduled refresh updates the evidence. Reassess the position when a trigger is met. Prioritize conditions that could materially change the current position within the decision horizon, including unfavorable developments.
+
+Example: Check comparable cost per transaction monthly using the latest pilot measurements and the dated incumbent baseline. Revisit the cost position and whether to expand the pilot if measured cost reaches or falls below the incumbent's under equivalent workload and reliability conditions.
 
 ## Context sensitivity requirements
 
@@ -75,3 +87,4 @@ Provide landscape implications that inform management's decision. Refer legal de
 
 Check that a vendor demonstration yields a different maturity judgment from independently documented production use. Compare cases with the same technology but different operating requirements or jurisdictions. The general evidence should carry through, while the application comparison or organizational implications should reflect the changed conditions. Check that a prominent market signal with no concrete case link appears only in the general assessment. Verify that two reports repeating a vendor benchmark count as one evidence origin and that any conclusion drawn from it is labeled as inference.
 Check that the landscape position remains understandable and supported if its framework labels are removed.
+Verify that each monitoring item identifies a source, refresh cadence, and observable condition linked to a specific decision.
