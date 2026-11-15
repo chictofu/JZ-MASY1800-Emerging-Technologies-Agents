@@ -1,14 +1,14 @@
 {
-  "emerging_technology": "REPLACE",
-  "intended_application": "REPLACE",
-  "organization": "REPLACE",
-  "industry_sector": "REPLACE",
-  "business_need": "REPLACE",
-  "users_stakeholders": "REPLACE",
-  "adoption_posture": "REPLACE",
-  "capabilities_constraints": "REPLACE",
-  "risk_consequence_context": "REPLACE",
-  "management_question": "REPLACE",
-  "time_horizon": "REPLACE",
-  "additional_context": ""
+  "emerging_technology": "Retrieval-augmented generation (RAG) for enterprise documents",
+  "intended_application": "Extract renewal and termination terms from supplier contracts with analyst review",
+  "organization": "Harbor Desk",
+  "industry_sector": "IT services",
+  "business_need": "Require at least 95% source-supported term extraction before operational use",
+  "users_stakeholders": "Contract analysts and procurement operations",
+  "adoption_posture": "Considering a supervised pilot",
+  "capabilities_constraints": "Hosted processing permitted in the approved test workspace; incumbent manual clause review; requires versioned document ingestion and page-level citations",
+  "risk_consequence_context": "Missed terms can lead to unintended renewal or lost termination rights",
+  "management_question": "Should management authorize a supervised pilot, and what would justify changing course?",
+  "time_horizon": "Six months",
+  "additional_context": "Assessment date 2026-11-15; United States; all organizations, vendors, sources, dates and results below are synthetic test fixtures. Compare only against this shared packet; treat unsupported conclusions as uncertain.\nL1 | Neutral Systems Lab, Comparative Retrieval Evaluation | 2026-10-20 | Independent evidence | Synthetic held-out workload benchmark. Internal support FAQ: hosted RAG 91% source-supported answers, search 88%; contractual terms: hosted RAG 72%, clause extraction with analyst review 96%. Workloads have distinct evaluation sets; no cost comparison.\nL2 | IT Operations Consortium, Deployment Panel | 2026-10-28 | Industry or consulting observation | Synthetic convenience panel, fielded August–September 2026. Six of 20 respondents report sustained internal FAQ use; two trial contract workflows. No representative adoption estimate.\nL3 | FableCloud, Release Notes and Data Flow | 2026-11-03 | Vendor claim | Synthetic hosted RAG release; published architecture sends query text to vendor-managed inference and claims a 20% cost reduction on its demo workload. Trade brief reprints the same number, so both count as one origin.\nL4 | Open Retrieval Forum, Interchange Profile v0.8 | 2026-09-30 | Standards or regulatory material | Synthetic draft for document and citation export. No final version or interoperability test is supplied. The packet contains no applicable regulatory material.\nL5 | Venture Desk, Quarterly Funding Tracker | 2026-11-04 | Industry or consulting observation | Synthetic Q3 survey of disclosed financing rounds reports higher aggregate funding across retrieval tooling; the packet establishes no connection to supplier support, price, or delivery.\nL6 | Assurance Lab, Hosted RAG Data-Flow Review | 2026-11-06 | Independent evidence | Synthetic controlled audit of the evaluated hosted configuration confirms query text leaves the customer boundary. Private deployment feasibility was outside scope."
 }

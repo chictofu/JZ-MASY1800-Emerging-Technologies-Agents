@@ -1,0 +1,68 @@
+{
+  "agent": {
+    "name": "Landscape Agent",
+    "specialty": "Technology landscape assessment",
+    "version": "0.1-student"
+  },
+  "analytical_question": "Should management authorize a supervised pilot, and what would justify changing course?",
+  "general_et_finding": "As of 2026-11-15 in the US synthetic landscape, RAG has reported sustained FAQ use (6 of 20 panel respondents) and earlier contract-workflow trial evidence (2 of 20); the panel does not establish market adoption (L2). Maturity and performance vary by workload: the benchmark identifies keyword search and reviewed clause extraction as relevant alternatives and shows different results for FAQs and contracts (L1). The hosted ecosystem includes vendor-managed inference, which receives query text (L3, L6); private supplier availability and integration support are unresolved. The export profile is a draft with no demonstrated interoperability (L4), and regulatory applicability is unassessed. Aggregate funding grew in the tracker (L5). The vendor reports lower demo costs (L3); comparable cost and longitudinal performance trends remain unverified.",
+  "application_finding": "The same FAQ benchmark applies: hosted RAG reached 91% versus 88% for keyword search (L1), and the use case still depends on citation quality and identity integration. Private RAG is a deployment option for the same technology; the shared packet does not benchmark it.",
+  "organization_specific_finding": "Cedar Desk prohibits external query egress. Vendor architecture and independent review agree that the evaluated configuration sends queries outside the customer boundary (L3, L6). The organization lacks approved private inference. Landscape position as of 2026-11-15 for Cedar Desk’s six-month FAQ decision: retain internal keyword search because the evaluated hosted configuration violates the boundary constraint (L6); private deployment remains contingent on verified feasibility.",
+  "value_opportunity_implication": "Use internal search as the current baseline and measure any approved private pilot against it.",
+  "risk_governance_implication": "Require evidence from a configuration-specific data-flow review covering query text and telemetry before any pilot.",
+  "recommendation_management_implication": "Defer a RAG pilot until an organization-managed option clears the egress constraint.",
+  "change_monitoring_triggers": [
+    "Watch private inference approval and observed query egress in security architecture decisions and network test logs. Refresh at each configuration or approval change and at monthly decision reviews. Revisit feasibility and whether to authorize a private pilot once approval is documented and a representative test confirms zero external query-text egress (L6 hosted baseline: egress observed, 2026-11-06)."
+  ],
+  "abstention_or_more_information_needed": [
+    "Request the proposed private architecture and its tested data-flow record; ask for a separate workload benchmark once deployment is approved."
+  ],
+  "evidence": [
+    {
+      "claim": "Synthetic held-out workload benchmark. Internal support FAQ: hosted RAG 91% source-supported answers, search 88%; contractual terms: hosted RAG 72%, clause extraction with analyst review 96%. Workloads have distinct evaluation sets; no cost comparison.",
+      "source_or_reference": "Synthetic fixture L1, Neutral Systems Lab, Comparative Retrieval Evaluation",
+      "date_or_recency": "2026-10-20",
+      "evidence_type": "Independent evidence",
+      "notes": "Held-out synthetic workload results. Each workload has its own test set."
+    },
+    {
+      "claim": "Synthetic convenience panel, fielded August–September 2026. Six of 20 respondents report sustained internal FAQ use; two trial contract workflows. No representative adoption estimate.",
+      "source_or_reference": "Synthetic fixture L2, IT Operations Consortium, Deployment Panel",
+      "date_or_recency": "2026-10-28",
+      "evidence_type": "Industry or consulting observation",
+      "notes": "Self-reported convenience panel. Limited generalizability."
+    },
+    {
+      "claim": "Synthetic hosted RAG release; published architecture sends query text to vendor-managed inference and claims a 20% cost reduction on its demo workload. Trade brief reprints the same number, so both count as one origin.",
+      "source_or_reference": "Synthetic fixture L3, FableCloud, Release Notes and Data Flow",
+      "date_or_recency": "2026-11-03",
+      "evidence_type": "Vendor claim",
+      "notes": "Vendor demo claim and its reprint share one origin."
+    },
+    {
+      "claim": "Synthetic draft for document and citation export. No final version or interoperability test is supplied. The packet contains no applicable regulatory material.",
+      "source_or_reference": "Synthetic fixture L4, Open Retrieval Forum, Interchange Profile v0.8",
+      "date_or_recency": "2026-09-30",
+      "evidence_type": "Standards or regulatory material",
+      "notes": "Draft only. Implementation and applicable regulatory evidence are missing."
+    },
+    {
+      "claim": "Synthetic Q3 survey of disclosed financing rounds reports higher aggregate funding across retrieval tooling; the packet establishes no connection to supplier support, price, or delivery.",
+      "source_or_reference": "Synthetic fixture L5, Venture Desk, Quarterly Funding Tracker",
+      "date_or_recency": "2026-11-04",
+      "evidence_type": "Industry or consulting observation",
+      "notes": "Aggregate indicator. No demonstrated change to supplier availability or support."
+    },
+    {
+      "claim": "Synthetic controlled audit of the evaluated hosted configuration confirms query text leaves the customer boundary. Private deployment feasibility was outside scope.",
+      "source_or_reference": "Synthetic fixture L6, Assurance Lab, Hosted RAG Data-Flow Review",
+      "date_or_recency": "2026-11-06",
+      "evidence_type": "Independent evidence",
+      "notes": "Independent controlled review of the hosted configuration. Private alternatives were outside scope."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Benchmarks are synthetic and workload-specific. The survey is a convenience sample. Repeated vendor claims share one origin; no comparable cost series or applicable regulatory evidence was supplied."
+  ],
+  "confidence_and_uncertainty": "High confidence about the evaluated hosted configuration within the fixture, given L3 and independent L6. Private feasibility and performance remain unknown."
+}
