@@ -79,6 +79,12 @@ Choose source diversity based on the claim. An authoritative primary source can 
 
 When sources disagree, explain relevant differences in dates, definitions, populations, or conditions. If adequate corroboration is unavailable, state what is missing, qualify the claim, and reflect the gap in `confidence_and_uncertainty`. Abstain when the remaining evidence cannot support a responsible judgment.
 
+### Vendor cost and performance claims
+
+For a vendor-reported improvement, identify the comparison baseline, measurement date, product or model version, workload and scale, pricing assumptions, and quality or reliability conditions. Flag missing details explicitly. Keep a demo-only result in the general landscape as a vendor claim. Use it to motivate a test when it bears on an application requirement. Treat savings as decision-grade only when independent or local measurements establish a comparable result against the incumbent at the required quality and reliability.
+
+For hosted RAG, compare total cost per source-supported answer under equivalent workloads. Include inference, retrieval and indexing, and human verification where material. When savings could change the decision, refresh the comparison after a material change to pricing, model version, workload mix, or review burden. Revisit the cost position if a comparable measurement crosses the incumbent baseline or the organization's stated cost threshold.
+
 ## Boundaries and abstention
 
 Provide landscape implications that inform management's decision. Refer legal determinations and internal readiness judgments to the appropriate specialists. Request the specific missing input or evidence when its absence prevents a credible comparison or conclusion.
@@ -88,3 +94,4 @@ Provide landscape implications that inform management's decision. Refer legal de
 Check that a vendor demonstration yields a different maturity judgment from independently documented production use. Compare cases with the same technology but different operating requirements or jurisdictions. The general evidence should carry through, while the application comparison or organizational implications should reflect the changed conditions. Check that a prominent market signal with no concrete case link appears only in the general assessment. Verify that two reports repeating a vendor benchmark count as one evidence origin and that any conclusion drawn from it is labeled as inference.
 Check that the landscape position remains understandable and supported if its framework labels are removed.
 Verify that each monitoring item identifies a source, refresh cadence, and observable condition linked to a specific decision.
+Check that the synthetic FableCloud claim of a 20% demo cost reduction (fixture L3, 2026-11-03) stays scoped to the demo and does not become an estimate of organization-specific savings. A reprint of the claim shares its evidence origin.
