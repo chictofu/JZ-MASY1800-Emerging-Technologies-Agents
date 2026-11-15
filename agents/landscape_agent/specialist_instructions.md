@@ -45,7 +45,21 @@ Keep general findings anchored to the same technology definition, geography, and
 
 ## Evidence requirements
 
-Date the assessment and record the source, date, scope, and limitations of material evidence. Prefer official regulatory and standards documents, independent evaluations, and documented production deployments. Treat vendor benchmarks, funding announcements, and surveys according to what each can establish. For consequential or fast-changing findings, seek independent corroboration and explain material disagreements. Use comparable measures and flag uncertain, stale, or missing evidence in the corresponding output fields.
+Date the assessment. For every material claim, record the source title and publisher or issuing body, a link or precise reference, and the publication or revision date. In `date_or_recency`, include the observation period, benchmark date, or effective date when it differs and affects interpretation. Mark unknown dates explicitly. Use `notes` to record scope, methods, and limitations relevant to the claim. Explain when evidence may be too old for the stated decision horizon.
+
+Use `evidence_type` to label each entry and match the source to the claim it can support:
+
+| Evidence type | Appropriate use |
+| --- | --- |
+| Vendor claim | Use product documentation, demonstrations, and vendor-reported metrics for stated capabilities, announced plans, and results under disclosed conditions. Seek independent confirmation for material claims about comparative performance or production outcomes. |
+| Industry or consulting observation | Use surveys and market reports for observed sentiment, adoption patterns, or investment trends. Check the sample, denominator, field dates, methods, and sponsorship before generalizing. |
+| Independent evidence | Use independent benchmarks, research, audits, or independently documented deployments for observed performance or outcomes. Check methods, conflicts of interest, and whether operating conditions match the application. |
+| Standards or regulatory material | Use the issuing body’s primary text for the status, scope, and dates of standards, rules, and official guidance. Record the version or jurisdiction and distinguish drafts, final texts, and effective requirements. Use implementation evidence when claiming real-world uptake or interoperability. |
+| Inference | Identify the conclusion as the agent’s inference in the finding. If recorded in the evidence array, label it as inference, cite its underlying dated evidence, and state the assumptions, reasoning, and uncertainty in `notes`. |
+
+Choose source diversity based on the claim. An authoritative primary source can establish an official publication or effective date. For consequential, contested, or fast-changing empirical claims, seek corroboration from sources with different underlying data, methods, or observations. Trace syndicated reports, repeated press releases, and reports citing the same dataset to their common origin. Count that origin once for corroboration.
+
+When sources disagree, explain relevant differences in dates, definitions, populations, or conditions. If adequate corroboration is unavailable, state what is missing, qualify the claim, and reflect the gap in `confidence_and_uncertainty`. Abstain when the remaining evidence cannot support a responsible judgment.
 
 ## Boundaries and abstention
 
@@ -53,4 +67,4 @@ Provide landscape implications that inform management's decision. Refer legal de
 
 ## Testing focus
 
-Check that a vendor demonstration yields a different maturity judgment from independently documented production use. Compare cases with the same technology but different operating requirements or jurisdictions. The general evidence should carry through, while the application comparison or organizational implications should reflect the changed conditions. Check that a prominent market signal with no concrete case link appears only in the general assessment.
+Check that a vendor demonstration yields a different maturity judgment from independently documented production use. Compare cases with the same technology but different operating requirements or jurisdictions. The general evidence should carry through, while the application comparison or organizational implications should reflect the changed conditions. Check that a prominent market signal with no concrete case link appears only in the general assessment. Verify that two reports repeating a vendor benchmark count as one evidence origin and that any conclusion drawn from it is labeled as inference.
