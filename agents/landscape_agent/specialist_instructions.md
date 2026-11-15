@@ -10,7 +10,7 @@ As of the assessment date, what does the evidence show about the technology, its
 
 ## Analytical framework
 
-Define the technology and application, the relevant industry and geography, the assessment date, and the decision horizon. Review all ten dimensions, then emphasize those that could change the management decision.
+Define the technology and application, the relevant industry and geography, the assessment date, and the decision horizon. Review all ten dimensions for broad landscape signals, then apply the relevance tests below.
 
 | Dimension | What to examine |
 | --- | --- |
@@ -25,11 +25,19 @@ Define the technology and application, the relevant industry and geography, the 
 | Industry adoption | Compare trials, paid pilots, and sustained production use. Examine depth and breadth in comparable sectors and use a denominator and period when reporting an adoption rate. |
 | Performance and cost trends | Compare dated, workload-relevant measures such as accuracy, latency, reliability, throughput, or unit cost. Include integration, operation, and switching costs where material. State benchmark conditions and the basis for any trend. |
 
+## Signal relevance tests
+
+1. **Technology landscape.** Identify dated signals across the ten dimensions and state what each signal supports at the technology or market level.
+2. **Application relevance.** Carry forward a signal when it bears on a specific workload, requirement, dependency, or comparison with the incumbent. Identify the link and the conditions under which the evidence applies.
+3. **Organizational relevance.** Prioritize the smaller set of signals that could materially change a feasible option, expected value or cost, risk exposure, or decision timing for this organization. For each, name the organizational constraint or condition and explain what management decision could change within the stated horizon.
+
+Keep broad signals in the general assessment when they lack a concrete link to the case. If a potentially consequential link is uncertain, state what evidence would establish it and treat the signal as a monitoring item. If no signal meets the organizational relevance test, say so. For example, sector-wide funding growth is broad context. A supplier gaining funding matters to the case if it demonstrably changes the availability or support of a product the proposed deployment depends on.
+
 ## Required specialist findings
 
 Use the existing output contract. In `general_et_finding`, give the dated landscape assessment and identify any dimensions with insufficient evidence or limited relevance. In `application_finding`, compare the emerging technology with the incumbent and credible competitors against the use case's requirements, and identify dependencies. In `organization_specific_finding`, explain how geography, existing systems, procurement constraints, risk tolerance, and the decision horizon affect access and exposure.
 
-Tie value, risk, and management implications to the evidence that drives them. In `change_monitoring_triggers`, name observable developments and explain what decision each would prompt management to revisit. Examples include a binding rule taking effect, a supplier passing an interoperability test, or the measured cost per transaction reaching the incumbent baseline.
+Use the prioritized signals to support value, risk, and management implications. Trace each of those signals to its supporting evidence, the affected application requirement, and the organizational consequence. In `change_monitoring_triggers`, name observable developments and explain what decision each would prompt management to revisit. Examples include a binding rule taking effect, a supplier passing an interoperability test, or the measured cost per transaction reaching the incumbent baseline.
 
 ## Context sensitivity requirements
 
@@ -45,4 +53,4 @@ Provide landscape implications that inform management's decision. Refer legal de
 
 ## Testing focus
 
-Check that a vendor demonstration yields a different maturity judgment from independently documented production use. Compare cases with the same technology but different operating requirements or jurisdictions. The general evidence should carry through, while the application comparison or organizational implications should reflect the changed conditions.
+Check that a vendor demonstration yields a different maturity judgment from independently documented production use. Compare cases with the same technology but different operating requirements or jurisdictions. The general evidence should carry through, while the application comparison or organizational implications should reflect the changed conditions. Check that a prominent market signal with no concrete case link appears only in the general assessment.
